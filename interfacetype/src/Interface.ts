@@ -10,14 +10,14 @@ interface User {
 }
 
 const newUser: User = {
-  dbName: 'mongoDbconnection',
+  dbName: 'mongoDbconnections',
   userId: 22,
   userName: 'ashish',
-  email: 'a@a.com',
+  email: 'ashish@a.com',
   StartTrail: () => {
     return 'Starting trail'
   },
-  getCoupon(cname: '50PERT', off: 50) {
+  getCoupon(cname: '50PERTAGE', off: 50) {
     return 10;
   },
 
