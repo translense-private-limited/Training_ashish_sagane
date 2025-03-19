@@ -1,0 +1,25 @@
+@import './commons/color.scss';
+
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+
+  text-decoration: none;
+}
+
+body {
+
+  background-color: $primary-color;
+  color: white;
+}
+
+
+.container {
+
+  margin: 0 40px;
+}
