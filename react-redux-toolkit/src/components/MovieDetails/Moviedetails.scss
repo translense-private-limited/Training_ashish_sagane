@@ -1,0 +1,13 @@
+@import '../../commons/color.scss';
+
+.moviesection{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    color: $font-primary;
+    font-weight: 400;
+}
+.movie-title{
+    font-size: 2rem;
+    color: $font-primary;
+}
