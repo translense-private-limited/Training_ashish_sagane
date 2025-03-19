@@ -23,7 +23,7 @@ function App() {
 
 
               <Route path='/' exact Component={Home} />
-              <Route path='/movie/:imdb' Component={MovieDetails} />
+              <Route path='/movie/:imdbID' Component={MovieDetails} />
               <Route path='/*' Component={PageNotFound} />
 
             </Routes>
